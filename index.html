@@ -458,6 +458,11 @@
             setRem("load");
             setNightMode();
 
+            var v = viewport();
+
+            if (Math.min(v.width, v.height) <= 600) {
+                document.documentElement.classList.add("compact");
+            }
             var now = new Date();
             var cleanTime = (new Date()).setHours(4, 0, 0);
             var diff = cleanTime - now;
@@ -489,10 +494,11 @@
 
         function setNightMode() {
             var root = document.querySelector(":root");
+
             if (isNightMode()) {
-                root.className = "night";
+                root.classList.add("night");
             } else {
-                root.className = null;
+                root.classList.remove("night");
             }
         }
 

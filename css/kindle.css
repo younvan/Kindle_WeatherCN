@@ -230,7 +230,7 @@ html.night {
 }
 
 .landscape .colTime {
-    font-size: 120px;
+    font-size: 120px;    
     font-weight: bolder;
     font-family: electronicFont;
 }
@@ -249,4 +249,17 @@ html.night {
     font-size: 4rem;
     font-weight: bolder;
     text-align: center;
+}
+
+.compact .forecast {
+    top: 15%;
+}
+
+.compact #sun {
+    bottom: 3rem;
+    font-size: 3rem;
+}
+
+.compact .landscape .colTime {
+    font-size: 8rem;
 }
