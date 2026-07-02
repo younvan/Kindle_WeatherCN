@@ -1,4 +1,4 @@
-var api_locParams = "q=Nanjing";
+var api_locParams = "q=Chengdu";
 var api_appId = "404f9e50d254b230661194dabb52b700";
 var api_lang = "zh_cn"
 var api_units = "metric"; 
